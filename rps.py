@@ -23,3 +23,5 @@ def is_win(player, opponent):
         or (player == 's' and opponent == 'p') \
              or (player == 'p' and opponent == 'r'):
              return True
+
+print(play())
